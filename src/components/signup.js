@@ -16,12 +16,12 @@ function Signup(){
      const googlelogo="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
   const  sumbitdata=async(e)=>{
     e.preventDefault()
-         const res= await axios.post(process.env.REACT_APP_CREATE,{
+          await axios.post(process.env.REACT_APP_CREATE,{
           name:name,
           email:e_mail,
           password:pwd
         })
-        .then((res)=>{
+        .then(()=>{
           setname("");
           setpwd("");
           setemail("");
