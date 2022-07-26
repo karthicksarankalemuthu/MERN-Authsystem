@@ -20,8 +20,7 @@ function Signup(){
           name:name,
           email:e_mail,
           password:pwd
-        })
-        .then(()=>{
+        }).then(()=>{
           setname("");
           setpwd("");
           setemail("");
