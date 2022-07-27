@@ -27,7 +27,6 @@ body{
 form{
     display: flex;
     flex-direction: column;
-   
 }
 #title{
     background: -webkit-linear-gradient(rgba(44,180,228,1),  rgba(209,35,247,1) );
