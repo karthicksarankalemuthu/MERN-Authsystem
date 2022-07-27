@@ -25,9 +25,7 @@ function Signup(){
           setpwd("");
           setemail("");
          navigate("/signin")
-
-        }).
-        catch((err)=>{
+        }).catch((err)=>{
           console.log(err);
             seterror();
           
