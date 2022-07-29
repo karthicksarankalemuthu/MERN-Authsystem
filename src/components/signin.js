@@ -19,9 +19,9 @@ function Signin(){
   const  logindata=async(e)=>{
     e.preventDefault()
    
-       const res= await axios.post(process.env.REACT_APP_LOGIN,{
+       const res= await axios.post("https://karthicklogin-system.herokuapp.com/api/login",{
           email:logemail,
-          password:logpwd
+          password:logpwd,
         })
         try{
          
